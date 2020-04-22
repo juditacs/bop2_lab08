@@ -14,8 +14,8 @@ public:
 		price = theOther.price;
 	}
 	Device(std::string id,double price):idNumber(id),price(price){}
-	//virtual 
-		void print(std::ostream& os)const /*= 0;*/
+	//virtual in order to check sorting function  
+		void print(std::ostream& os)const /*= 0; */
 		{
 			os << "Device id:" << idNumber << ",price:" << price;
 		}

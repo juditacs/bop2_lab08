@@ -41,7 +41,7 @@ int main() {
 	/*const unsigned maxEquipment = 4;
 	Device* equipments[maxEquipment];
 
-equipments[0] = new Display("932-11",120, 200);	 // This instruction should result in compiler error. Why?
+equipments[0] = new Display("932-11",120, 200);	 
    equipments[1] = new Printer("182-19", 120., 8);	 // Parameters: unique ID, price, printing speed (pages per minute)
 	equipments[2] = new Display("18A", 200.1, 2003); // Parameters: unique ID, price, year of appropriation
 	equipments[3] = new Printer("14-932-22", 31.5, 15.4);   // Parameters: unique ID, price, printing speed
@@ -53,7 +53,7 @@ equipments[0] = new Display("932-11",120, 200);	 // This instruction should resu
 		std::cout << std::endl;
 			delete equipments[i];
 		}
-	}*/
+	} */
 	Device* eq[5];
 	eq[0] = new Device("22A", 200);
 	eq[1] = new Device("345-64", 150);

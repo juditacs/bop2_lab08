@@ -9,7 +9,7 @@ class Printer :public Device {
 protected:
 	double speed;
 public:
-	Printer(std::string id, double price, double speed) :Device(id,price), speed(speed) {}
+	Printer( std::string id, double price, double speed) :Device(id,price), speed(speed) {}
 	void print(std::ostream& os)const {
 		os << "Device id:" << idNumber << ",price:" << price << ", speed:" << speed;
 	}

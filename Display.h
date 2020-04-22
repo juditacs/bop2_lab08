@@ -12,7 +12,7 @@ protected:
 	int year;
 public:
 	Display(std::string id, double price,int year) :Device(id, price),year(year) {}
-	void print(std::ostream& os)const {
+	void print(std::ostream& os )const {
 		os << "Device id:" << idNumber << ",price:" << price<<", year:"<<year;
 	}
 	~Display() { std::cout << "DIsplay destructor" << std::endl; }
